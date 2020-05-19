@@ -4,7 +4,8 @@
 	// Use 'appPort' to create a container with published ports. If the port isn't working, be sure
 	// your server accepts connections from all interfaces (0.0.0.0 or '*'), not just localhost.
 	// In this case, "--host 0.0.0.0 --port 9000" needs to be passed into Flask to make this happen.
-	"appPort": [9000],
+	// "forwardPorts": [8888, 8889, 8080, 80, 3000, 5000, 5500, 35729, 44335],
+	"appPort": [9000,8888],
 	// Comment out the next line to run as root instead. Linux users, 
 	// update Dockerfile with your user's UID/GID if not 1000.
 	// "runArgs": ["-u", "vscode"],
